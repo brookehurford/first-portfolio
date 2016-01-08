@@ -2,4 +2,4 @@
 
 ####By Brooke Hurford
 
-The purpose of this project is to showcase my work.x
+The purpose of this project is to showcase my work done at Epicodus.
