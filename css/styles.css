@@ -15,9 +15,8 @@ li {
   padding: 5px;
 }
 
-hr {
-  color: black;
-  height: 5px;
+.panel-group {
+  padding-top: 20px;
 }
 
 /* Headers
@@ -39,6 +38,16 @@ h3 {
   font-family: 'Open Sans';
 }
 
+/* About Me
+==============================*/
+
+.aboutMe {
+  margin-top: 20px;
+  padding-bottom: 45px;
+  background-color: white;
+}
+
+
 /* Buttons
 ==============================*/
 
@@ -50,6 +59,13 @@ h3 {
 
 .btn-default {
   color: white;
+}
+
+/* Images
+==============================*/
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
 }
 
 
@@ -66,4 +82,12 @@ h3 {
 
 .contactinfo {
   font-size: 24px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.form {
+  padding: 25px;
+  text-align: center;
 }
