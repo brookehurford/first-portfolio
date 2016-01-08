@@ -15,10 +15,6 @@ li {
   padding: 5px;
 }
 
-.panel-group {
-  padding-top: 20px;
-}
-
 /* Headers
 ==============================*/
 
@@ -47,18 +43,32 @@ h3 {
   background-color: white;
 }
 
+.panel-group {
+  padding-top: 20px;
+}
+
 
 /* Buttons
 ==============================*/
 
-.btn {
+.btn-primary {
   background-color: black;
   border: none;
-  text-align: center;
+}
+
+.btn-primary:focus {
+  background-color: grey;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: grey;
+  color: white;
 }
 
 .btn-default {
-  color: white;
+  background-color: #d3d3d3;
+  color: black;
 }
 
 /* Images
@@ -72,12 +82,19 @@ h3 {
 /* Contact and Footer
 ==============================*/
 
+.footer {
+  background-color: white;
+}
+
 .footer-content {
   text-align: center;
+  padding-top: 25px;
+  font-size: 11px;
 }
 
 .contactText {
   font-size: 20px;
+  text-align: center;
 }
 
 .contactinfo {
