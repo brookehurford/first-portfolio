@@ -1,6 +1,10 @@
 /* General
 ==============================*/
 
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+
 .headerImage {
   padding-top: 65px;
 }
