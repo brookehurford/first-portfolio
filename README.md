@@ -13,7 +13,7 @@ The purpose of this project is to showcase my work done at Epicodus.
 
 ##GitHub Pages URL
 
-[Brooke Hurford's Portfolio](brookehurford.github.io/portfolio)
+[Brooke Hurford's Portfolio](http://brookehurford.github.io/portfolio/)
 
 ## Legal
 
