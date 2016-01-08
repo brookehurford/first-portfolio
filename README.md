@@ -6,16 +6,16 @@ The purpose of this project is to showcase my work done at Epicodus.
 
 ##Setup
 
-*_Clone this repository_*
-*_Download file to your desktop_*
-*_Create a branch_*
-*_Create a pull request_*
+*Clone this repository*
+*Download file to your desktop*
+*Create a branch*
+*Create a pull request*
 
 ##GitHub Pages URL
 
 [Brooke Hurford's Portfolio](brookehurford.github.io/portfolio)
 
-### Legal
+## Legal
 
 Copyright (c) 2016 Brooke Hurford
 
