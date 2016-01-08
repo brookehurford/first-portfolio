@@ -1,11 +1,67 @@
+/* General
+==============================*/
+
+body {
+  background-color: #fafafa;
+  font-family: 'Open Sans';
+}
+
+li {
+  padding: 5px;
+}
+
+hr {
+  color: black;
+  height: 5px;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.contactText {
+  font-size: 20px;
+}
+
+.contactinfo {
+  font-size: 24px;
+}
+
+/* Headers
+==============================*/
+
 h1 {
   text-align: center;
+  font-family: 'Oswald';
 }
 
 h2 {
   text-align: center;
+  font-family: 'Oswald';
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
 
+h3 {
+  font-family: 'Open Sans';
+}
+
+/* Buttons
+==============================*/
+
 .btn {
-  align: center;
+  background-color: black;
+  border: none;
+  text-align: center;
+}
+
+.btn-default {
+  color: white;
+}
+
+/* Images
+==============================*/
+
+.portfolio {
+  max-height: 190px;
 }

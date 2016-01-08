@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <title>Portfolio | Brooke Hurford</title>
   </head>
   <body>
@@ -46,12 +46,59 @@
             <img class="portfolio" src="img/animal-shelter.png" alt="Screenshot of Travel Iceland Website">
             <div class="caption">
               <h3>Animal Shelter</h3>
-              <p>Animals are the best, so Michael and I also created a site for an animal shelter. We used HTML and CSS to build the site. We practiced using our stylesheet a lot here to make columns for each animal, and to test out new background colors.</p>
+              <p>Animals are the best, so Michael and I also created a site for an animal shelter. We used HTML and CSS to build the site. We practiced using our stylesheet a lot here to make columns for each animal.</p>
               <p><a href="#" class="btn btn-primary" role="button">The Site</a></p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      <div class="container">
+      <h2>About Me</h2>
+        <div class="row">
+          <div class="col-md-7">
+            <p class="lead">My yellow brick road to coding</p>
+            <p>I can still hear my mom in my head saying, "You should do something with computers". Flash forward 15 years and I've had graduated high school, moved to Eugene to pursue Dental Hygiene, and once I figured out that path definitely wasn't me - I landed on full-time server. At that point in my life I loved it, but I knew it would fulfill me forever.</p>
+            <p>In the summer of 2011 I decided it was time to move back to Portland, and get a job with my cousin at SightWorks. To be honest - I had little to no idea what they actually did. Turns out they built websites. During the next four years I found my love of this industry. The people, the energy, the learning, the building. As a Project Manager at SightWorks I learned more than I could have ever hoped for. I found that my absolute favorite part of my job was working with my team. Getting in a room, figuring out a problem, and solving it - together. That's when I decided programming could really be for me.</p>
+          </div>
+          <div class="col-md-5">
+            <p class="lead">What I love</p>
+            <ul>
+              <li><em>My family.</em> To me this includes blood, and non-blood family.</li>
+              <li><em>Festivals.</em> Music, community, love - what else could you ask for?</li>
+              <li><em>Blogging.</em> This is a new one for me, but the more I think about it - the more I wonder why I haven't been doing it all along.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <h2>Contact Info</h2>
+      <div class="row">
+        <div class="col-md-6 contactinfo">
+          <p class="contactText">If you would like to talk to me about my work, you can either give me a shout via email or phone - or I can reach out to you if you leave me your address!</p>
+          <a href="mailto:brookebhurford@gmail.com">Email Me</a>
+          <p>503-970-2352<p>
+        </div>
+        <div class="col-md-6">
+          <form class="form">
+            <div class="form-group">
+              <label class="sr-only" for=MobilePhone>Email Address</label>
+              <input type="tel" class="form-control" id="MobilePhone" placeholder="Email Address">
+            </div>
+            <button type="submit" class="btn btn-default" data-dismiss="modal">Send</button>
+          </form>
+        </div>
+        </div>
+      </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <hr>
+          <div class="footer-content">
+            <h3>Contact Information</h3>
+            <p>Brooke Hurford | <a href="mailto:brookebhurford@gmail.com">Email Me</a></p>
+          </div>
+          <p>&copy; 2016 Brooke Hurford</p>
+          </div>
+        </div>
+      </div>
   </body>
 </html>
